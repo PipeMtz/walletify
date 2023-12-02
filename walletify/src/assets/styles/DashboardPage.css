@@ -1,0 +1,40 @@
+/* DashboardPage.css */
+
+/* Style for the Dashboard container */
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+}
+.wallet-item{
+  border: 4px
+}
+/* Style for wallet cards */
+.wallet-cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row if there's not enough space */
+  justify-content: flex-start; /* Justify content from left to right */
+}
+
+.wallet-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  color: blue; /* Set the color to blue */
+  flex: 0 0 calc(33.33% - 20px); /* Set the width of each card to one-third of the container with margins */
+  box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+/* Style for wallet actions buttons */
+.wallet-action-button {
+  margin-right: 8px;
+}
+
+/* Style for modal input */
+.modal-input {
+  width: 100%;
+}
+
+/* Style for modal title */
+.modal-title {
+  text-transform: capitalize;
+}

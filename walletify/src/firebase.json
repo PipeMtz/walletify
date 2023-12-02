@@ -1,0 +1,10 @@
+
+{
+    "rules": {
+      "Images": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+  

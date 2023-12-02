@@ -1,0 +1,18 @@
+/* Sidebar.css */
+
+.button-container {
+  width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .containerSidebar {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 4px;
+  }
+  

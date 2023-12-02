@@ -1,0 +1,35 @@
+/* Add this CSS to your stylesheet or component */
+
+/* Style for the main container */
+div.container {
+    margin: 20px;
+  }
+  
+  /* Style for each wallet item */
+  div.wallet-item {
+    border: 2px solid #ddd;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 10px;
+  }
+  
+  /* Style for wallet headings */
+  h3 {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for balance paragraph */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for modal input space */
+  div.modal-input-space {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for create name input in modal */
+  input#create-name-input {
+    width: 100%;
+  }
+  

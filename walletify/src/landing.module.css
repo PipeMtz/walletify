@@ -1,0 +1,23 @@
+.containerList {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    gap: 80px;
+}
+
+.containerIcon {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.textUi {
+    font-size: 1rem;
+    max-width: 25ch;
+}
+
+.icon{
+    font-size: 1.4rem;
+}
